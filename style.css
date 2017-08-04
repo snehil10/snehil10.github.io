@@ -23,7 +23,7 @@ font-family: 'Chango', cursive;
 }
 
 #navbar_row {
-    height: 70px;
+    height: 10vh;
     padding-top: 20px;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 #heading_row {
     text-align: center;
     color: white;
-    height: 650px;
+    height: 80vh;
 }
 
 #text_heading {
@@ -76,7 +76,7 @@ h3 {
 }
 
 #social_row {
-    height: 70px;
+    height: 10vh;
 }
 
 #competetive_programming {
