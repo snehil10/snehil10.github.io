@@ -7,9 +7,8 @@ and open the template in the editor.
     Created on : 3 Aug, 2017, 1:10:12 PM
     Author     : snehil
     #558C8C
-font-family: 'Indie Flower', cursive;
-font-family: 'Chango', cursive;
-
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Chango', cursive;
 */
 
 .container-fluid {
@@ -17,8 +16,9 @@ font-family: 'Chango', cursive;
 }
 
 .banner {
+    margin: 0%;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     background-color: #558C8C;
 }
 
@@ -29,11 +29,11 @@ font-family: 'Chango', cursive;
 
 .navbar-brand {
     height: 100%;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .navbar-default {
-    font-size: 22px;
+    font-size: 25px;
     height: 100%;
     border: none;
     background-color: #558C8C !important;
@@ -50,10 +50,8 @@ a:hover {
     text-decoration: overline underline !important;
 }
 
-.icon-bar, span {
-    color: white !important;
+span {
     background-color: white !important;
-    font-size: 50px;
 }
 
 #heading_row {
@@ -64,14 +62,14 @@ a:hover {
 
 #text_heading {
     position: relative;
-    top: 40%;
+    top: 35%;
 }
 
-h1 {
+#heading_name {
     font-family: 'Chango', cursive;
 }
 
-h3 {
+#heading_desig {
     font-family: 'Indie Flower', cursive; 
 }
 
@@ -80,11 +78,12 @@ h3 {
 }
 
 #competetive_programming {
-    font-size: 22px;
+    font-size: 25px;
     height: 100%;
-    padding: 1.5%;
+    padding: 1%;
     text-align: center;
     margin: 0%;
+    text-decoration: none;
 }
 
 #social {
@@ -96,7 +95,8 @@ h3 {
 
 #social_id {
     height: 100%;
-    padding: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
 }
 
 .heading {
@@ -108,10 +108,13 @@ h3 {
 #profile_pic {
     border-radius: 100%;
     max-height: 250px;
+    margin-bottom: 30px;
 }
 
 #aboutMeDescription {
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
 
 #aboutMe, #achievements, #competetive_programming_profiles, #Projects {
@@ -121,7 +124,7 @@ h3 {
 .thumbnail {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .achievements_style, .programming_style {
@@ -129,6 +132,7 @@ h3 {
     font-size: 24px;
     text-align: center;
     list-style: none;
+    padding: 0px;
 }
 
 footer {
@@ -139,4 +143,13 @@ footer {
     font-size: 18px;
     text-align: center;
     margin-top: 50px;
+}
+
+.footer_link {
+    color: white;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
 }
