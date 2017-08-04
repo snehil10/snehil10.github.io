@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 Aug, 2017, 1:10:12 PM
+    Author     : snehil
+    #558C8C
+font-family: 'Indie Flower', cursive;
+font-family: 'Chango', cursive;
+
+*/
+
+.container-fluid {
+    padding: 0px;
+}
+
+.banner {
+    height: auto;
+    background-color: #558C8C;
+}
+
+#navbar_row {
+    height: 70px;
+    padding-top: 20px;
+}
+
+.navbar-brand {
+    height: 100%;
+    font-size: 22px;
+}
+
+.navbar-default {
+    font-size: 22px;
+    height: 100%;
+    border: none;
+    background-color: #558C8C !important;
+}
+
+a, li {
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    color: white !important;
+    font-family: 'Indie Flower', cursive;
+}
+
+a:hover {
+    text-decoration: overline underline !important;
+}
+
+.icon-bar, span {
+    color: white !important;
+    background-color: white !important;
+    font-size: 50px;
+}
+
+#heading_row {
+    text-align: center;
+    color: white;
+    height: 650px;
+}
+
+#text_heading {
+    position: relative;
+    top: 40%;
+}
+
+h1 {
+    font-family: 'Chango', cursive;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive; 
+}
+
+#social_row {
+    height: 70px;
+}
+
+#competetive_programming {
+    font-size: 22px;
+    height: 100%;
+    padding: 1.5%;
+    text-align: center;
+    margin: 0%;
+}
+
+#social {
+    height: 100%;
+    text-align: center;
+    padding: 1%;
+    margin: 0%;
+}
+
+#social_id {
+    height: 100%;
+    padding: 1.5%;
+}
+
+
+
+
