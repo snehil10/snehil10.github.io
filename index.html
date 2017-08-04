@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -14,38 +15,36 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="banner col-xs-12">
-                <div class="row" id="navbar_row">
-                    <div class="navbar navbar-default">
-                        <div class="container">
-                            <div class="navbar-header ">
-                                <button type="button" class="navbar-toggle navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#myNavBar">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand top_Links" href="#aboutMe">About Me</a>
-                            </div>
-                            <div class="collapse navbar-collapse" id="myNavBar">
-                                <ul class="nav navbar-nav navbar-right" >
-                                    <li><a class="top_Links" href="#Projects">Projects</a></li>
-                                    <li><a class="top_Links" href="#achievements">Achievements</a></li>
-                                    <li><a class="top_Links" href="CV6.0.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume</a></li>
-                                </ul>
-                            </div>
+            <div class="banner col-xs-12 row">
+                <div class="navbar navbar-default" id="navbar_row">
+                    <div class="container">
+                        <div class="navbar-header ">
+                            <button type="button" class="navbar-toggle navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#myNavBar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand top_Links" href="#aboutMe">About Me</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavBar">
+                            <ul class="nav navbar-nav navbar-right" >
+                                <li><a class="top_Links" href="#Projects">Projects</a></li>
+                                <li><a class="top_Links" href="#achievements">Achievements</a></li>
+                                <li><a class="top_Links" href="CV6.0.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            
+       
                 <div class="row" id="heading_row">
                     <div class="container" id="text_heading">
-                        <h1> SNEHIL SANTHALIA </h1>
-                        <h3> COMPUTER SCIENCE UNDERGRAD </h3>
+                        <h1 id="heading_name"> SNEHIL SANTHALIA </h1>
+                        <h3 id="heading_desig"> COMPUTER SCIENCE UNDERGRAD </h3>
                     </div>
                 </div>
                 <div class="row" id="social_row">
                     <div class="container col-sm-6 col-xs-12" id="competetive_programming">    
-                        <a class="top_Links" href="#competetive_programming_profiles" style="text-decoration: none">Competitive Programming Profiles</a>
+                        <a class="top_Links" href="#competetive_programming_profiles">Competitive Programming Profiles</a>
                     </div>
                     <div class="container col-sm-6 col-xs-12" id="social">
                         <a class="top_Links" id="social_id" href="https://www.linkedin.com/in/snehilsanthalia/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
@@ -56,30 +55,32 @@
                 </div>
             </div>
         </div>
+        
         <div class="container" id="aboutMe">
             <h1 class="heading">About Me</h1>
             <div class="col-md-6 col-xs-12">
                 <center><img id="profile_pic" class="img img-responsive" src="images/profile.jpg"></center>
             </div>
             <div class="col-md-6 col-xs-12" id="aboutMeDescription">
-                <p>Hi! I am Computer Science Undergrad. Blah! Blah! Blah! Okay?<br>Blah! Blah! Blah! Blah! Blah! Blah! 
-                <br>Blah! Blah! Blah! Blah! Blah! Blah! <br>Blah! Blah! Blah! Blah! Blah! Blah! 
-                <br>Blah! Blah! Blah! Blah! Blah! Blah! 
-                <br>Blah! Blah! Blah! Blah! Blah! Blah! 
-                <br>Blah! Blah! Blah! Blah! Blah! Blah! 
-                <br>Blah! Blah! Blah! Blah! Blah! Blah! 
-                <br>Blah! Blah! Blah! Blah! Blah! Blah!
-                <br>Blah! Blah! Blah! Blah! Blah! Blah!
-                <br>Blah! Blah! Blah! Blah! Blah! Blah!
-                <br>I would have to somehow fill this up with real things...</p>
+                <p>Hi! I am Computer Science Undergrad. Blah! Blah! Blah! Okay? Blah! Blah! Blah! Blah! Blah! Blah! 
+                Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+                Blah! Blah! Blah! Blah! Blah! Blah! 
+                Blah! Blah! Blah! Blah! Blah! Blah! 
+                Blah! Blah! Blah! Blah! Blah! Blah! 
+                Blah! Blah! Blah! Blah! Blah! Blah! 
+                Blah! Blah! Blah! Blah! Blah! Blah!
+                Blah! Blah! Blah! Blah! Blah! Blah!
+                Blah! Blah! Blah! Blah! Blah! Blah!
+                I would have to somehow fill this up with real things...</p>
             </div>
         </div>
+        
         <div class="container" id="Projects">
             <h1 class="heading">Projects</h1>
-            <div class="projects">
+            <div class="row">
                 <div class="thumbnail col-md-3 col-xs-6">
                     <a href="index.html"><img class="img img-responsive" src="images/portfolio.png"></a>
-                    <p>Online Portfolio</p>
+                    <p>Online Portfolio/Website</p>
                 </div>
                 <div class="thumbnail col-md-3 col-xs-6">
                     <a href="https://github.com/snehil10/ECommerceWebsite" target="_blank"><img class="img img-responsive" src="images/portfolio.png"></a>
@@ -95,6 +96,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="container" id="achievements">
             <h1 class="heading">Achievements</h1>
             <ul class="achievements_style">
@@ -124,7 +126,8 @@
         
         <footer>
             <div class="container">
-                <p>Created by Snehil Santhalia</p>
+                <p>Created with <i class="fa fa-heart"></i> by
+                    <a class="footer_link" href="mailto:snehil.santhalia@gmail.com" target="_top"> Snehil Santhalia</a></p>
             </div>
         </footer>
     </body>
