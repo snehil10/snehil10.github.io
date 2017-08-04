@@ -24,13 +24,13 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#aboutMe">About Me</a>
+                                <a class="navbar-brand top_Links" href="#aboutMe">About Me</a>
                             </div>
                             <div class="collapse navbar-collapse" id="myNavBar">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="index.html">Projects</a></li>
-                                    <li><a href="signup.html">Achievements</a></li>
-                                    <li><a href="login.html">Skills</a></li>
+                                <ul class="nav navbar-nav navbar-right" >
+                                    <li><a class="top_Links" href="#Projects">Projects</a></li>
+                                    <li><a class="top_Links" href="#achievements">Achievements</a></li>
+                                    <li><a class="top_Links" href="login.html">Skills</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -45,12 +45,13 @@
                 </div>
                 <div class="row" id="social_row">
                     <div class="container col-sm-6 col-xs-12" id="competetive_programming">    
-                        <a href="#" style="text-decoration: none">Competitive Programming Profiles</a>
+                        <a class="top_Links" href="#competetive_programming_profiles" style="text-decoration: none">Competitive Programming Profiles</a>
                     </div>
                     <div class="container col-sm-6 col-xs-12" id="social">
-                        <a id="social_id" href="https://www.facebook.com/santhalia.snehil" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-                        <a id="social_id" href=""><i class="fa fa-github fa-2x"></i></a>
-                        <a id="social_id" href=""><i class="fa fa-quora fa-2x"></i></a>
+                        <a class="top_Links" id="social_id" href="https://www.linkedin.com/in/snehilsanthalia/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a class="top_Links" id="social_id" href="https://www.facebook.com/santhalia.snehil" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a class="top_Links" id="social_id" href="https://github.com/snehil10" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                        <a class="top_Links" id="social_id" href="https://www.quora.com/profile/Snehil-Santhalia" target="_blank"><i class="fa fa-quora fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -58,7 +59,7 @@
         <div class="container" id="aboutMe">
             <h1 class="heading">About Me</h1>
             <div class="col-md-6 col-xs-12">
-                <center><img class="img img-responsive" src="images/profile.jpg"></center>
+                <center><img id="profile_pic" class="img img-responsive" src="images/profile.jpg"></center>
             </div>
             <div class="col-md-6 col-xs-12" id="aboutMeDescription">
                 <p>Hi! I am Computer Science Undergrad. Blah! Blah! Blah! Okay?<br>Blah! Blah! Blah! Blah! Blah! Blah! 
@@ -75,6 +76,56 @@
         </div>
         <div class="container" id="Projects">
             <h1 class="heading">Projects</h1>
+            <div class="projects">
+                <div class="thumbnail col-md-3 col-xs-6">
+                    <a href="index.html"><img class="img img-responsive" src="images/portfolio.png"></a>
+                    <p>Online Portfolio</p>
+                </div>
+                <div class="thumbnail col-md-3 col-xs-6">
+                    <a href="https://github.com/snehil10/ECommerceWebsite" target="_blank"><img class="img img-responsive" src="images/portfolio.png"></a>
+                    <p>E-Commerce Website</p>
+                </div>
+                <div class="thumbnail col-md-3 col-xs-6">
+                    <a href="https://github.com/snehil10/Flight-Reservation-System" target="_blank"><img class="img img-responsive" src="images/portfolio.png"></a>
+                    <p>Flight Reservation System</p>
+                </div>
+                <div class="thumbnail col-md-3 col-xs-6">
+                    <a href="https://github.com/snehil10/BookShop" target="_blank"><img class="img img-responsive" src="images/portfolio.png"></a>
+                    <p>Library Mangement System</p>
+                </div>
+            </div>
         </div>
+        <div class="container" id="achievements">
+            <h1 class="heading">Achievements</h1>
+            <ul class="achievements_style">
+                <li>14th Rank in ACM-ICPC Kharagpur Regionals 2016-17</li>
+                <li>51st Rank in ACM-ICPC India Finals 2016-17</li>
+                <li>Selected for Cognizant Mastercode Finale 2017</li>
+            </ul>
+        </div>
+        
+        <div class="container" id="competetive_programming_profiles">
+            <h1 class="heading">Competetive Programming Profiles</h1>
+            <div class="row">
+                <div class="thumbnail col-sm-4 col-xs-12">
+                    <a href="https://www.codechef.com/users/snehil10" target="_blank"><img class="img img-responsive" src="images/codechef.png"></a>
+                    <p>Codechef</p>
+                </div>
+                <div class="thumbnail col-sm-4 col-xs-12">
+                    <a href="http://codeforces.com/profile/snehil10" target="_blank"><img class="img img-responsive" src="images/codeforces.png"></a>
+                    <p>Codeforces</p>
+                </div>
+                <div class="thumbnail col-sm-4 col-xs-12">
+                    <a href="http://uhunt.felix-halim.net/id/843225" target="_blank"> <img class="img img-responsive" src="images/uva.png"></a>
+                    <p>UVA Online Judge</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="container">
+                <p>Created by Snehil Santhalia</p>
+            </div>
+        </footer>
     </body>
 </html>
