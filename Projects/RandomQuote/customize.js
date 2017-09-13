@@ -7,12 +7,14 @@
 $(document).ready(function() {
     
     var width = $(document).width();
+    
     if(width <= 767) {
         $("i").removeClass("fa-5x");
         $("i").addClass("fa-2x");
         $("#heading").css("font-size", "40px");
         $("#heading").css("text-shadow", "1px 2px red");
-        $("h5, h6").css("font-size", "20px");
+        $(".message").html("<h4>“And forget not that the earth delights to feel your bare feet and the winds long to play with your hair.”</h4>" 
+                + "<h5> ― Kahlil Gibran</h5>");
     }
     
     var back = document.getElementById("background_music");
@@ -23,6 +25,7 @@ $(document).ready(function() {
     var turl = "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=";
     var temp = turl + "“And forget not that the earth delights to feel your bare feet and the winds long to play with your hair.”"
      + "― Kahlil Gibran";
+     
     $("#getQuote").click(function(){
         
         $("#gun").prop("autoplay", "true");
@@ -35,7 +38,12 @@ $(document).ready(function() {
         
         $(".message").fadeTo('medium', 0, function(){
             $.getJSON(qurl, function(a) {
-                $(".message").html("<h5>“" + a.quoteText + "”</h5>" + "<h6>— " + a.quoteAuthor + "</h6>");
+                if(a.quoteAuthor=="") a.quoteAuthor = "Unknown";
+                if(width <= 767) {
+                    $(".message").html("<h4>“" + a.quoteText + "”</h4>" + "<h5> — " + a.quoteAuthor + "</h5>");
+                } else {
+                    $(".message").html("<h2>“" + a.quoteText + "”</h2>" + "<h3> — " + a.quoteAuthor + "</h3>");
+                }
                 temp = turl + "“" + a.quoteText + "” — " + a.quoteAuthor;
                 $(".message").fadeTo('medium', 1);
                 $("#getQuote").removeClass("fa-spin");
