@@ -28,7 +28,6 @@ $(document).ready(function() {
      
     $("#getQuote").click(function(){
         
-        $("#gun").prop("autoplay", "true");
         $("#getQuote").addClass("fa-spin");
         $("#heading").css("color", "red");
         
